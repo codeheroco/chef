@@ -1,0 +1,14 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    build-essential (1.4.0)
+    nginx (1.1.4)
+      build-essential (>= 0.0.0)
+      ohai (>= 1.1.4)
+    ohai (1.1.10)
+    runit (0.16.2)
+
+DEPENDENCIES
+  nginx (~> 1.1.2)
+  runit (~> 0.16.2)
+
